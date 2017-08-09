@@ -5,12 +5,7 @@ To install the dependencies,
 Open the Python Shell
 
     >>> import nltk
-    >>> nltk.download()
-
-This will open a dialog
-
-Download the following
-  punkt - Punkt Tokenizer Model
+    >>> nltk.download('punkt')
 
 Now you will need a config.py with the Twitter OAuth tokens. Once that is ready,
 
