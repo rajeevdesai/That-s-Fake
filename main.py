@@ -1,5 +1,6 @@
 import os, time, math, requests, nltk, tkinter
 from twitter import *
+nltk.download('punkt')
 from nltk import ne_chunk, pos_tag, word_tokenize
 from nltk.tree import Tree
 from gensim import corpora, models, similarities
