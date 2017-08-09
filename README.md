@@ -7,6 +7,6 @@ Open the Python Shell
     >>> import nltk
     >>> nltk.download('punkt')
 
-Now you will need a config.py with the Twitter OAuth tokens. Once that is ready,
+A config.py with the Twitter OAuth tokens is required. Once that is ready,
 
 Run main.py
