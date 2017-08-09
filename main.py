@@ -3,7 +3,6 @@ from twitter import *
 from nltk import ne_chunk, pos_tag, word_tokenize
 from nltk.tree import Tree
 from gensim import corpora, models, similarities
-from lxml import html
 from textblob import TextBlob as tb
 from tkinter import *
 from tkinter import messagebox
